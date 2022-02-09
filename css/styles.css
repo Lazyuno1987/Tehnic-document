@@ -1,0 +1,82 @@
+body {
+  font-family: "Andada Pro";
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 28px;
+}
+p {
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  font-weight: 400;
+}
+.page {
+  display: flex;
+  position: relative;
+}
+.page-left {
+  position: fixed;
+  padding-top: 35px;
+}
+
+.page-right {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  left: 450px;
+}
+@media screen and (max-width: 870px) {
+  .page-right {
+    left: 170px;
+  }
+}
+
+.nav-list {
+  list-style: none;
+}
+.title {
+  padding-left: 35px;
+}
+
+@media screen and (max-width: 870px) {
+  .title {
+    width: 200px;
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 871px) {
+  .title {
+    width: 350px;
+    font-size: 26px;
+  }
+}
+.nav-link {
+  text-decoration: none;
+}
+code {
+  background-color: #eee;
+  border-radius: 3px;
+  font-family: courier, monospace;
+  padding: 0 3px;
+}
+
+.nav-item {
+  background-color: blanchedalmond;
+  margin-bottom: 15px;
+  padding: 15px 10px;
+}
+@media screen and (max-width: 870px) {
+  .nav-item {
+    width: 120px;
+  }
+}
+@media screen and (min-width: 871px) {
+  .nav-item {
+    width: 350px;
+  }
+}
+.page-right {
+  padding: 35px;
+}
